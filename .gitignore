@@ -1,6 +1,9 @@
 
+#모듈
 node_modules/
 
+#workspace
 .idea/
 
+# production
 dist/
