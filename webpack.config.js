@@ -39,21 +39,22 @@ module.exports = {
         ]
     },
     plugins: [
-        new WebpackManifestPlugin({
-            fileName: "manifest.json",
-            basePath: "/",
-        }),
-        new HtmlWebpackPlugin({
-            favicon: "public/assets/puzzle.ico",
-            template: "public/index.html"
-        }),
         new miniCssExtractPlugin({
             filename: "[name].[hash].css",
             chunkFilename: "[name].[hash].chunk.css"
         }),
         new UglifyJsPlugin(),
+        new HtmlWebpackPlugin({
+            favicon: path.resolve(__dirname, 'public/assets/puzzle.ico'),
+            template: path.resolve(__dirname, 'public/index.html')
+        }),
+        new WebpackManifestPlugin({
+            fileName: "manifest.json",
+            basePath: "/",
+        }),
         //개발
         new webpack.HotModuleReplacementPlugin()
+
     ],
     optimization: {
         splitChunks: {
