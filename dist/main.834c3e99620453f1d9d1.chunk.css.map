@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./public/css/style.scss"],"names":[],"mappings":"AAAA;AACA,0BAA0B;;AAE1B;AACA,yBAAyB","file":"main.834c3e99620453f1d9d1.chunk.css","sourcesContent":["body {\n  background-color: black; }\n\ndiv {\n  background-color: blue; }\n"],"sourceRoot":""}
