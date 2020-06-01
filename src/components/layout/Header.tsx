@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             <Link to="/">
                 <span className="blue">M</span>andal-<span
                 className="yellow">A</span>RT

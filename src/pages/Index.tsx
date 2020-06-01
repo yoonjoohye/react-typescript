@@ -2,7 +2,9 @@ import * as React from "react";
 
 const Index= () => {
     return(
-        <div>index</div>
+        <section className="section">
+            index
+        </section>
     )
 }
 

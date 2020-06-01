@@ -1,6 +1,16 @@
 import * as firebase from 'firebase';
 
-const config = {
+interface Config{
+    apiKey:string;
+    authDomain: string;
+    databaseURL: string;
+    projectId: string;
+    storageBucket: string;
+    messagingSenderId: string;
+    appId: string;
+    measurementId: string;
+}
+const config:Config= {
     apiKey: "AIzaSyDRQ4weZbic7PCWOa_13RqFRgO0Bv-aMDU",
     authDomain: "mandal-art-a55fa.firebaseapp.com",
     databaseURL: "https://mandal-art-a55fa.firebaseio.com",
