@@ -1,13 +1,13 @@
 import * as firebase from 'firebase';
 
 //액션 이름
-const LOGIN = 'auth/LOGIN';
-const LOGIN_FAILURE = 'auth/LOGIN_FAILURE';
-const LOGIN_SUCCESS = 'auth/LOGIN_SUCCESS';
+const LOGIN = 'auth/LOGIN' as const;
+const LOGIN_FAILURE = 'auth/LOGIN_FAILURE' as const;
+const LOGIN_SUCCESS = 'auth/LOGIN_SUCCESS' as const;
 
-const LOGOUT = 'auth/LOGOUT';
-const LOGOUT_FAILURE = 'auth/LOGOUT_FAILURE';
-const LOGOUT_SUCCESS = 'auth/LOGOUT_SUCCESS';
+const LOGOUT = 'auth/LOGOUT' as const;
+const LOGOUT_FAILURE = 'auth/LOGOUT_FAILURE' as const;
+const LOGOUT_SUCCESS = 'auth/LOGOUT_SUCCESS' as const;
 
 
 //액션 생성 함수

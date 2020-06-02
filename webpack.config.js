@@ -21,6 +21,7 @@ let config = {
                     loader: 'babel-loader',
                     options: {
                         presets: ['@babel/preset-env', '@babel/preset-react', '@babel/preset-typescript'],
+                        plugins: ['@babel/proposal-object-rest-spread']
                     }
                 },
                 exclude: /(node_modules)/
@@ -59,6 +60,7 @@ let config = {
         ]
     },
     plugins: [
+        new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
             filename: '[name].[hash].css'
         }),

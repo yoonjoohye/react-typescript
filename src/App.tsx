@@ -10,16 +10,16 @@ import {composeWithDevTools} from "redux-devtools-extension";
 // redux thunk
 import ReduxThunk from 'redux-thunk';
 // reducer
-import rootReducer from './modules/index';
+// import rootReducer from './modules';
 // 스토어 생성
-const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(ReduxThunk)));
+// const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(ReduxThunk)));
 
 
 const App=()=> {
     return(
-        <Provider store={store}>
+        // <Provider store={store}>
             <Root/>
-        </Provider>
+        // </Provider>
     )
 }
 
