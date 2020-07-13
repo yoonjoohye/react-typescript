@@ -1,10 +1,6 @@
-# Plan kit
+# 리액트와 타입스크립트 설정
 
-> React-typescript-webpack
-
-Skills
----
-> react + typescript + webpack
+> React-typescript boilerplate
 
 
 
